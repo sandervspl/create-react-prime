@@ -1,5 +1,6 @@
 import * as i from 'types';
 import path from 'path';
+import os from 'os';
 import { readdirSync } from 'fs';
 import { ListChoiceOptions } from 'inquirer';
 
@@ -26,7 +27,7 @@ export default class SelectEditor extends Question {
   readonly message = 'Open project in editor?';
 
   when = (): boolean => {
-    return this.choices.length > 1;
+    return os.type() === 'Darwin' && this.choices.length > 1;
   }
 
   choices: ListChoiceOptions[] = [{
