@@ -12,7 +12,7 @@ export default function bootstrapCLI(): CLI {
 
   cli.option(
     '-b, --boilerplate <boilerplate>',
-    'Install chosen boilerplate. Options: react-spa, react-ssr, react-native',
+    'Install chosen boilerplate. Options: react-vite, discord-bot, node-app, nestjs-app',
   );
 
   // Parse user input

@@ -2,9 +2,10 @@ import CRPApp from 'core/CRPApp';
 
 import { CleanupStep, CloneStep, NpmInstallStep, NpmPackageUpdateStep } from './defaults/steps';
 import { BoilerplateQuestion, OpenEditorQuestion, ProjectNameQuestion } from './defaults/questions';
-import ReactSPAInstaller from './react-spa/ReactSPA.installer';
-import ReactSSRInstaller from './react-ssr/ReactSSR.installer';
-import ReactNativeInstaller from './react-native/ReactNative.installer';
+import ReactViteInstaller from './react-vite/ReactVite.installer';
+import DiscordBotInstaller from './discord-bot/DiscordBot.installer';
+import NodeAppInstaller from './node-app/NodeApp.installer';
+import NestjsAppInstaller from './nestjs-app/NestjsApp.installer';
 
 
 export default class App extends CRPApp {
@@ -24,8 +25,9 @@ export default class App extends CRPApp {
   };
 
   installers = [
-    ReactSPAInstaller,
-    ReactSSRInstaller,
-    ReactNativeInstaller,
+    ReactViteInstaller,
+    DiscordBotInstaller,
+    NodeAppInstaller,
+    NestjsAppInstaller,
   ];
 }

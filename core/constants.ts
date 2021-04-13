@@ -1,4 +1,4 @@
-export const LOG_PREFIX = 'crp';
+export const LOG_PREFIX = 'csv';
 
 /** CLI argument name indices */
 export const ARG = {

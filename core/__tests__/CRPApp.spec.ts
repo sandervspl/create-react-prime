@@ -9,7 +9,7 @@ import Installer from 'core/decorators/Installer';
 import Step from 'core/decorators/Step';
 import { LOG_PREFIX } from 'core/constants';
 
-import ReactSPAInstaller from 'modules/react-spa/ReactSPA.installer';
+import ReactSPAInstaller from 'modules/react-vite/ReactVite.installer';
 import { CloneStep } from 'modules/defaults/steps';
 
 
