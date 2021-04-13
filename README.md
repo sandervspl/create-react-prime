@@ -7,7 +7,7 @@ This package allows you to easily install and setup [react-prime](https://github
 # Create React Prime
 ## Quick start
 ```
-npx create-react-prime my-app
+npx create-sandervspl my-app
 cd my-app
 npm start
 ```
@@ -36,7 +36,7 @@ All options are optional. If no options are given, the CLI will prompt a questio
       -b, --boilerplate
     </td>
     <td>
-      react-spa, react-ssr, react-native
+      react-vite, discord-bot, node-app, nestjs-app
     </td>
     <td>
       -

@@ -1,8 +1,8 @@
 {
-  "name": "create-react-prime",
-  "version": "2.0.0",
+  "name": "create-sandervspl",
+  "version": "1.0.0",
   "description": "",
-  "author": "Label A [labela.nl]",
+  "author": "Sander Vispoel",
   "license": "MIT",
   "scripts": {
     "build": "node esbuild.config.js",
@@ -20,7 +20,7 @@
   },
   "main": "dist/main.js",
   "bin": {
-    "create-react-prime": "dist/main.js"
+    "create-sandervspl": "dist/main.js"
   },
   "files": [
     "dist"

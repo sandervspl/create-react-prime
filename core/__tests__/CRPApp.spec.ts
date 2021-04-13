@@ -111,8 +111,8 @@ describe('CRPApp', () => {
   });
 
   it('Prints the correct startup message', () => {
-    const name = 'create-react-prime';
-    const v = '2.0.0';
+    const name = 'create-sandervspl';
+    const v = '1.0.0';
     process.env.NAME = name;
     process.env.VERSION = v;
 
