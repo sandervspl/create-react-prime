@@ -49,7 +49,7 @@ describe('CRPApp', () => {
       cliAPI__DO_NOT_USE__.parse(['node', 'dist/main.js', ...str]);
     }
 
-    const name = 'react-spa';
+    const name = 'react-vite';
     parse('-b', name);
 
     app.installers = [ReactSPAInstaller];
