@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="https://github.com/JBostelaar/react-prime/blob/master/src/static/images/prime-logo.png" alt="prime-logo" width="250px" />
-</p>
-
-This package allows you to easily install and setup [react-prime](https://github.com/react-prime/react-prime), [react-prime-ssr](https://github.com/react-prime/react-prime-ssr) and [react-prime-native](https://github.com/react-prime/react-prime-native). check their repositories for more information.
-
-# Create React Prime
 ## Quick start
 ```
 npx create-sandervspl my-app
