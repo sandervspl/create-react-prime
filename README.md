@@ -2,7 +2,6 @@
 ```
 npx create-sandervspl my-app
 cd my-app
-npm start
 ```
 
 ## Options
