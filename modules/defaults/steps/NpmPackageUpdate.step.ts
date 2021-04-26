@@ -27,7 +27,7 @@ export class NpmPackageUpdateStep {
     pkg.name = cliMgr.getProjectName();
     pkg.version = '0.1.0';
     pkg.description = `Repository of ${cliMgr.getProjectName()}.`;
-    pkg.author = 'Label A [labela.nl]';
+    pkg.author = 'Sander Vispoel';
     pkg.keywords = [];
     pkg.repository = { url: '' };
 
